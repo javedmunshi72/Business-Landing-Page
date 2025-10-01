@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme{
+    --color-dark-indigo:#0F0D1DBF;
+    --color-blue:#3C72FC;
+    --color-snow-white:#FCFCFC;
+    --color-rich-black:#0F0D1D;
+    --color-lavender-gray:#8F8DA0;
+    --color-light-gray-blue:#F2F4F8;
+    --color-cool-gray:#E6E9EF;
+    --color-dark-blue:#2D95FD;
+    --color-storm-gray:#726F84;
+    --color-vampire-black:#06050C;
+    --color-medium-gray:#707070B2;
+}
+
+body {
+    font-family: 'Jost',sans-serif;
+  scroll-behavior: smooth;
+}
+/* Extra styling if needed */
+.accordion-btn {
+  transition: color 0.3s ease;
+}
+
